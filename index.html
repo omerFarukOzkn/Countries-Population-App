@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        .btn-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-div button{
+            font-size: 24px;
+            padding: 12px 16px;
+            border-radius: 24px;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="btn-div">
+        <button id="button">Ülkeleri Göster</button>
+    </div>
+
+    <h1 class="total-pop" style="text-align: center;"></h1>
+
+    <div class="container">
+
+    </div>
+    
+    <script src="./ulkeler2.js"></script>
+    <script src="./ulkeler.js"></script>
+</body>
+</html>
